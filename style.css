@@ -1,27 +1,43 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 .container {
-    height: 100vh;
+  height: 100vh;
+  border: 2px solid red;
 }
 
 .title-bar {
-    height: 5vh;
+  border: 2px solid green;
+  height: 5vh;
 }
 
 .menu-bar {
-    height: 5vh;
+  border: 2px dotted rgb(0, 255, 0);
+  height: 5vh;
 }
 
 .menu-icon-bar {
-    height: 6vh;
+  height: 6vh;
+  border: 2px dashed green;
+  
 }
 
 .formula-bar {
-    height: 6vh;
+  height: 5vh;
+  border: 3px dotted gray;
 }
 
 .data-container {
-    height: 74vh;
+  height: 74vh;
+  border: 2px double blue;
 }
 
 .sheet-bar {
-    height: 4vh;
+  border: 2px dashed gray;
+  height: 4vh;
 }
